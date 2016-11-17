@@ -1,0 +1,18 @@
+<div>
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>{{t "ID"}}</th>
+                <th>{{t "NAME"}}</th>
+                <th>{{t "EMAIL"}}</th>
+            </tr>
+            {{#each people as |person|}}
+                {{#link-to 'user.detail' person.id tagName="tr" class="userRow"}} 
+                    <td>{{person.id}}</td>
+                    <td>{{person.name}}</td>
+                    <td>{{person.email}}</td>
+                {{/link-to}}
+            {{/each}}
+        </tbody>
+    </table>
+</div>

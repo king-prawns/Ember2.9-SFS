@@ -1,0 +1,19 @@
+<div id="todos">
+    {{#link-to 'user.detail' model.userId tagName="button" class="btn btn-success top-right"}}
+        {{t "BACK_TO_USER" }}
+    {{/link-to}}
+    <h4>
+        TODO:
+        {{completed-todo model.todos}}
+        /
+        {{model.todos.length}}
+    </h4>
+    {{#each model.todos as |todo|}}
+    <div class="checkbox disabled">
+        <label>
+            {{input type="checkbox" checked=todo.completed disabled=true}}
+            {{todo.title}}
+        </label>
+    </div>
+    {{/each}}
+</div>

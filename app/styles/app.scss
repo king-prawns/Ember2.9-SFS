@@ -1,0 +1,57 @@
+@import 'normalize';
+@import 'color';
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.active {
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    height: 83px;
+    background-color: $header;
+    h1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        padding-top: 20px;
+        text-align: center;
+        color: white;
+    }
+}
+
+nav {
+    background-color: $nav !important;
+    border-color: transparent !important;
+    .navbar-brand {
+        padding: 0 15px !important;
+        .brand {
+            height: 50px;
+        }
+    }
+    a {
+        color: black !important;
+    }
+    #changeLanguage {
+        margin-top: 10px;
+    }
+}
+
+#userDetails {
+    padding-top: 10px;
+}
+
+#todos {
+    padding-top: 10px;
+}
+
+.userRow {
+    cursor: pointer;
+}
