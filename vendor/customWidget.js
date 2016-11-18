@@ -1,30 +1,21 @@
 /* global define */
-(function (define) {
-    define([], function () { 
-        //['jquery'], function ($)
-        return (function () {
-            var myVar = '';
+(function (window) {
+    'use strict';
+    function myLibrary(){
+        var myVar = '';
 
-            var extWidget = {
-                fullName: fullName
-            };
+        var myLibraryObject = {
+            fullName: fullName
+        };
 
-            return extWidget;
+        return myLibraryObject;
 
-            ////////////////
-
-            function fullName(firstName, lastName) {
-                return alert(firstName+ " " + lastName + "!");
-            }
-
-        })();
-    });
-}(typeof define === 'function' && define.amd ? define : function (deps, factory) {
-    if (typeof module !== 'undefined' && module.exports) { //Node
-        module.exports = factory();
-        //= factory(require('jquery'));
-    } else {
-        window.customWidget = factory(window);
-        //= factory(window.jQuery);
+        function fullName(firstName, lastName) {
+            return alert(firstName + " " + lastName + "!");
+        }
     }
-}));
+    
+    if(typeof(window.customWidget) === 'undefined'){
+        window.customWidget = myLibrary();
+    }
+})(window);
