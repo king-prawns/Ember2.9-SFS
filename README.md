@@ -12,14 +12,6 @@ Go to [Git website](https://git-scm.com/)
 
 Then add Git to Windows Path
 
-- Install npm
-
-Open command prompt
-
-```
-$ npm install npm -g
-```
-
 - Install ember-cli
 
 A simple CLI for scaffolding Ember.js projects
