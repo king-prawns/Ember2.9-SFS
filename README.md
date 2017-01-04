@@ -1,7 +1,7 @@
 # Ember2.9-SFS
 Ember 2.9 project - Start from scratch
 
-## Installation Step by Step
+## Installation
 - Install Node.js
 
 Go to [Node website](https://nodejs.org/en/)
