@@ -95,7 +95,7 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 - [Ember i18n](https://github.com/jamesarosen/ember-i18n)
 - [Ember Favicon](https://github.com/davewasmer/ember-cli-favicon)
 - [Ember Pace](https://github.com/vectart/ember-cli-pace)
-- NO unit/integration test has been developed.
+- NO unit/integration test has been developed
 
 ## Conclusion
 
