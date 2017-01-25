@@ -19,14 +19,14 @@ A simple CLI for scaffolding Ember.js projects
 $ npm install -g ember-cli
 ```
 
-- Install bower
+- Install [bower](https://bower.io/)
 
 A package manager for the web
 ```
 $ npm install -g bower
 ```
 
-- Install json-server ([source](https://github.com/typicode/json-server))
+- Install [json-server](https://github.com/typicode/json-server)
 
 Full fake REST API
 ```
@@ -58,7 +58,7 @@ $ cd my-project
 $ ember build --env production
 ```
 
-Install http-server ([source](https://github.com/indexzero/http-server))
+Install [http-server](https://github.com/indexzero/http-server)
 
 A command-line http server
 ```
