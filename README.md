@@ -12,7 +12,7 @@ Go to [Git website](https://git-scm.com/)
 
 Then add Git to Windows Path
 
-- Install ember-cli
+- Install [ember-cli](https://ember-cli.com/)
 
 A simple CLI for scaffolding Ember.js projects
 ```
