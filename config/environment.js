@@ -2,20 +2,20 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'admin-forum-ember',
+    modulePrefix: 'Ember2.9-SFS',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
     i18n: {
-	   defaultLocale: 'en'
+      defaultLocale: 'en'
     },
     pace: {
-        theme: 'flash',
-        /* theme-list:
+      theme: 'flash',
+      /* theme-list:
          barber-shop, big-counter, bounce, center-atom, center-circle, center-radar, center-simple, corner-indicator, fill-left, flash, flat-top, loading-bar, mac-osx, minimal
          */
-        color: 'purple' 
-        /* color-list:
+      color: 'purple'
+      /* color-list:
          black, blue, green, orange, pink, purple, red, silver, white, yellow
          */
     },
@@ -56,7 +56,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-      ENV.locationType = 'hash' //very important
+    ENV.locationType = 'hash'; //very important
   }
 
   return ENV;
